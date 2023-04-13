@@ -2823,7 +2823,7 @@ ul.actions.special {
 }
 
 ul.actions.special li:first-child {
-	background-color: transparent;
+	background-color: rgb(19, 238, 19);
 	padding-left: 0;
 }
 
