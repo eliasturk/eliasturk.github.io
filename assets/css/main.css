@@ -3804,7 +3804,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 
 #nav a:hover {
 	border-bottom-color: transparent;
-	color: #18bfef !important;
+	color: #df10df !important;
 }
 
 #nav strong,
@@ -4142,10 +4142,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	border-bottom-color: rgba(113, 121, 129, 0.5);
 }
 
-#footer a:hover {
-	border-bottom-color: transparent;
-	color: #15f35f !important;
-}
+
 
 #footer strong,
 #footer b {
@@ -4196,6 +4193,8 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	box-shadow: inset 0 0 0 2px #ef18c0;
 	color: #18bfef !important;
 }
+
+
 
 #footer input[type="submit"].primary,
 #footer input[type="reset"].primary,
