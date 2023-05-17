@@ -4144,7 +4144,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 
 #footer a:hover {
 	border-bottom-color: transparent;
-	color: #15f35f !important;
+	color: #18bfef !important;
 }
 
 #footer strong,
@@ -4158,7 +4158,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 #footer h4,
 #footer h5,
 #footer h6 {
-	color: #18bfef;
+	color: #60db19;
 }
 
 #footer blockquote {
