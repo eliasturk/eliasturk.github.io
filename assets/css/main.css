@@ -4142,7 +4142,10 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	border-bottom-color: rgba(113, 121, 129, 0.5);
 }
 
-
+#footer a:hover {
+	border-bottom-color: transparent;
+	color: #15f35f !important;
+}
 
 #footer strong,
 #footer b {
@@ -4155,7 +4158,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 #footer h4,
 #footer h5,
 #footer h6 {
-	color: #60db19;
+	color: #18bfef;
 }
 
 #footer blockquote {
