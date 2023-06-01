@@ -44,7 +44,7 @@
 							icon="cib:tableau"></iconify-icon></a></li>
 			</ul>
 		</nav>
-
+		
 		<!-- Main -->
 		<div id="main">
 			<!-- Featured Post -->
@@ -56,8 +56,18 @@
 				<a href="#" class="image main"><img src="images/Myproject-1.png" alt="" /></a>
 			</article>
 			<!-- Posts -->
+			<div class="filter">
+				<label for="project-filter">Filter projects by technology:</label>
+				<select id="project-filter">
+					<option value="all">All</option>
+					<option value="sql">SQL</option>
+					<option value="python">Python</option>
+					<option value="r">R</option>
+					<option value="tableau">Tableau</option>
+				</select>
+			</div>
 			<section class="posts">
-				<article>
+				<article data-technologies="tableau">
 					<header>
 						<h2><a href="https://public.tableau.com/app/profile/elias.turk">Visualizing the webscraped e-shopify website data</a></h2>
 					</header>
@@ -72,22 +82,23 @@
 						<li><a href="https://public.tableau.com/app/profile/elias.turk/viz/Dashboardcolorse-store/Dashboard1" class="button small">View visualization 3</a></li>
 					</ul>
 				</article>
-				<article>
+				<article data-technologies="python">
 					<header>
-						<h2><a href="https://github.com/eliasturk/Webscraping-using-selenium/blob/main/selenWS.py">Webscraping
-								a shopify website using python-selenium</a></h2>
+						<h2><a href="https://github.com/lelo555/Waste-sorting-using-cNN-Deep-Neural-Networks-">Waste
+								sorting using computer vision cNN and transfer learning.</a></h2>
 					</header>
-					<a href="https://github.com/eliasturk/Webscraping-using-selenium/blob/main/selenWS.py"
-						class="image fit"><img src="images/web-automation-selenium-python.avif" alt="" /></a>
-					<p>This is how i scraped a shopify e-clothing store using selenium in python .<br>
-						It dumps data and put them in a dataframe which we later on saved it to csv.
+					<a href="https://github.com/lelo555/Waste-sorting-using-cNN-Deep-Neural-Networks-"
+						class="image fit"><img src="images/plastic.png" alt="" /></a>
+					<p>This is my master's senior project.TrashNet dataset was used in this project and it is a public
+						dataset that can be found on github.<br>
+						Transfer learning using pre-trained models were used using tf-hub .
 					</p>
 					<ul class="actions special">
-						<li><a href="https://github.com/eliasturk/Webscraping-using-selenium/blob/main/selenWS.py"
+						<li><a href="https://github.com/lelo555/Waste-sorting-using-cNN-Deep-Neural-Networks-"
 								class="button">View project on Github</a></li>
 					</ul>
 				</article>
-				<article>
+				<article data-technologies="r">
 					<header>
 						<h2><a
 								href="https://github.com/eliasturk/Webscraping-using-selenium/blob/main/data%20cleaning/data-cleaning-selenium-project.R">Data
@@ -103,7 +114,7 @@
 								class="button">View project on Github</a></li>
 					</ul>
 				</article>
-				<article>
+				<article data-technologies="python">
 					<header>
 						<h2><a
 								href="https://github.com/lelo555/Red-wine-quality/blob/main/Redwine_quality_CMP5101.ipynb">Red
@@ -120,7 +131,7 @@
 								class="button">View project on Github</a></li>
 					</ul>
 				</article>
-				<article>
+				<article data-technologies="python">
 					<header>
 						<h2><a
 								href="https://github.com/lelo555/World-Happiness-based-on-corruption-/blob/main/World%20Happiness%20based%20on%20corruption.ipynb">World
@@ -137,7 +148,7 @@
 								class="button">View project on Github</a></li>
 					</ul>
 				</article>
-				<article>
+				<article data-technologies="tableau">
 					<header>
 						<h2><a
 								href="https://public.tableau.com/app/profile/elias.turk/viz/HappinessScore2015-2020Insights/Dashboard1">World
@@ -155,23 +166,22 @@
 								class="button">View project on Tableau public</a></li>
 					</ul>
 				</article>
-				<article>
+				<article data-technologies="python">
 					<header>
-						<h2><a href="https://github.com/lelo555/Waste-sorting-using-cNN-Deep-Neural-Networks-">Waste
-								sorting using computer vision cNN and transfer learning.</a></h2>
+						<h2><a href="https://github.com/eliasturk/Webscraping-using-selenium/blob/main/selenWS.py">Webscraping
+								a shopify website using python-selenium</a></h2>
 					</header>
-					<a href="https://github.com/lelo555/Waste-sorting-using-cNN-Deep-Neural-Networks-"
-						class="image fit"><img src="images/plastic.png" alt="" /></a>
-					<p>This is my master's senior project.TrashNet dataset was used in this project and it is a public
-						dataset that can be found on github.<br>
-						Transfer learning using pre-trained models were used using tf-hub .
+					<a href="https://github.com/eliasturk/Webscraping-using-selenium/blob/main/selenWS.py"
+						class="image fit"><img src="images/web-automation-selenium-python.avif" alt="" /></a>
+					<p>This is how i scraped a shopify e-clothing store using selenium in python .<br>
+						It dumps data and put them in a dataframe which we later on saved it to csv.
 					</p>
 					<ul class="actions special">
-						<li><a href="https://github.com/lelo555/Waste-sorting-using-cNN-Deep-Neural-Networks-"
+						<li><a href="https://github.com/eliasturk/Webscraping-using-selenium/blob/main/selenWS.py"
 								class="button">View project on Github</a></li>
 					</ul>
 				</article>
-				<article>
+				<article data-technologies="sql">
 					<header>
 						<h2><a href="https://github.com/eliasturk/COVIDProject/blob/main/COVID%20Project.sql">COVID-19
 								Data exploration using SQL</a></h2>
@@ -186,7 +196,7 @@
 								class="button">View project on Github</a></li>
 					</ul>
 				</article>
-				<article>
+				<article data-technologies="tableau">
 					<header>
 						<h2><a
 								href="https://public.tableau.com/app/profile/elias.turk/viz/COVID-19Dashboard_16696080084350/Dashboard1">COVID-19
@@ -274,6 +284,26 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+	$(document).ready(function() {
+		// When the project filter value changes
+		$('#project-filter').change(function() {
+			var selectedTechnology = $(this).val();
+
+			// Hide all projects
+			$('.posts article').hide();
+
+			if (selectedTechnology === 'all') {
+				// If 'All' is selected, show all projects
+				$('.posts article').show();
+			} else {
+				// Show projects with matching technology
+				$('.posts article[data-technologies*="' + selectedTechnology + '"]').show();
+			}
+		});
+	});
+</script>
 
 </body>
 

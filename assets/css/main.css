@@ -4113,6 +4113,40 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 
 }
 
+.filter {
+	margin-bottom: 20px;
+  }
+  
+  .filter label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 14px;
+	color: #ffffff;
+  }
+  
+  .filter select {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	font-size: 14px;
+	border: 1px solid #ffffff;
+	border-radius: 4px;
+	background-color: #ffffff;
+	color: #000000;
+	transition: background-color 0.3s ease;
+  }
+  
+  .filter select:hover {
+	background-color: #76017a;
+	color: #ffffff;
+  }
+  
+  .filter select option {
+	background-color: #76017a;
+	color: #000000;
+  }
+  
+
 /* Footer */
 
 #footer {
