@@ -4150,13 +4150,13 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 /* Footer */
 
 #footer {
-	color: #717981;
+	
 	display: -moz-flex;
 	display: -webkit-flex;
 	display: -ms-flex;
 	display: flex;
 	background-color: #07063f;
-	color: #717981;
+	color: #ffffff;
 	cursor: default;
 	position: relative;
 	margin: 0 auto;
@@ -4172,7 +4172,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 #footer a {
-	color: #717981;
+	color: #ffffff;
 	border-bottom-color: rgba(113, 121, 129, 0.5);
 }
 
